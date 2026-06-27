@@ -14,7 +14,8 @@ import Hobby from "../../assets/icons/hobby.svg?react";
 import Education from "../../assets/icons/education.svg?react";
 import OtherExpen from "../../assets/icons/other.svg?react";
 import Pay from "../../assets/icons/pay.svg?react";
-import OtherInco from "../../assets/icons/otherInco.svg";
+import OtherInco from "../../assets/icons/otherInco.svg?react";
+
 
 import "./summary.css";
 
