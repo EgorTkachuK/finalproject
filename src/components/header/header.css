@@ -1,0 +1,162 @@
+.header {
+  background-color: #FFFFFF;
+
+}
+
+
+.headerCover {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  
+}
+
+
+.left, .right {
+  display: flex;
+  align-items: center;
+}
+
+.right{
+  margin-right: 12px;
+}
+
+.userHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+  
+}
+
+.userIcon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #F5F6FA;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.userFirstLetter {
+  color: #52555F;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.headerLogo {
+  position: relative;
+  width: 110px;
+  height: 50px;
+  display: inline-block;
+
+}
+
+
+
+.yellowBubble,
+.redBubble {
+  position: absolute;
+  width: 33px;
+  height: 26px;
+  border-radius: 8px;
+  top: 0;
+  left: 0;
+}
+
+
+.yellowBubble {
+  background: #FDECE3;
+  left: 19px;
+  top: 8px;
+  z-index: 1;
+
+}
+
+
+.redBubble {
+  background: #FB7C2F; 
+  left: 25px;
+  top: 13px;
+  z-index: 2;
+
+}
+
+
+.logoTitle {
+  position: absolute;
+  z-index: 3;
+  left: 41px;
+  top: 15px;
+ 
+  color: #000;
+  font-weight: 800;
+  font-size: 16px;
+
+  text-transform: uppercase;
+ 
+
+}
+
+.logOutText{
+  display: none;
+}
+
+.logOutButton {
+  background: none;
+  border: none;
+  padding: 6px;
+  display: inline-flex;
+  align-items: center;
+  color: #CBCCD0;
+  cursor: pointer;
+}
+
+.logOutButton:focus {
+  outline: none;
+}
+
+
+
+@media (min-width: 768px) {
+  .header {
+
+  }
+
+  .headerLogo {
+
+  }
+
+  .yellowBubble,
+  .redBubble {
+
+  }
+
+  .logoTitle {
+
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .header {
+
+  }
+
+  .headerLogo {
+
+  }
+
+  .yellowBubble,
+  .redBubble {
+
+  }
+
+  .logoTitle {
+
+  }
+}

@@ -1,0 +1,241 @@
+.summaryCover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f9fb;
+  min-height: 100vh;
+  padding: 24px;
+}
+
+.summaryHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.iconBack {
+  align-self: flex-start;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.periodLabel {
+  color: #888;
+  font-size: 14px;
+}
+
+.periodSwitcher {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.monthButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.switchIcon {
+  width: 16px;
+  height: 16px;
+
+}
+
+.periodTitle {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}
+
+.balanceSection {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.balanceLabel {
+  color: #888;
+  font-size: 14px;
+}
+
+.summaryExpense {
+  display: flex;
+  flex-direction: column;
+
+border-right: 2px solid #E0E5EB;
+
+padding-right: 15px;
+
+}
+.summaryGain {
+  display: flex;
+  flex-direction: column;
+
+  padding-left: 15px;
+}
+
+.balanceValue {
+
+font-weight: 700;
+font-size: 12px;
+
+
+
+text-transform: uppercase;
+
+color: #000;
+  padding: 8px 16px;
+ 
+}
+
+.summaryStats {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #fff;
+  border-radius: 16px;
+
+
+  padding: 16px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.summaryStatLabel {
+  font-weight: 600;
+  color: #555;
+}
+
+.expenseValue {
+  color: #E7192E;
+  font-weight: 600;
+}
+
+.gainValue {
+  color: #407946;
+  font-weight: 600;
+}
+
+.categoryContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 20px;
+   border-bottom: 2px solid #E0E5EB;
+}
+
+.categoryBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100px; 
+  margin: 8px;
+
+  
+   
+
+}
+
+.iconWrapper {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #f8f9fb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.categoryIcon {
+  width: 32px;
+  height: 32px;
+  fill: #1a1a1a;
+}
+
+.categoryAmount {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.categoryLabel {
+  font-size: 14px;
+  color: #555;
+  text-align: center;
+}
+
+
+.graphContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 24px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.graphRow {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.graphLabel,
+.graphValue {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #555;
+}
+
+.graphBar {
+  height: 12px;
+  border-radius: 6px;
+  
+}
+
+
+
+@media (min-width: 768px) { 
+
+
+
+
+
+
+
+
+
+  
+
+  .summaryHeader {
+    flex-direction: row;
+    gap: 20vw;
+  }
+
+
+.iconBack{
+
+  order: 1;
+}
+
+.periodSection {
+
+  order: 3;
+}
+
+
+.balanceSection {
+  order: 2;
+}
+}
+

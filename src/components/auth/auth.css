@@ -1,0 +1,174 @@
+.loginpage {
+
+  z-index: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 32px 16px;
+ 
+  
+}
+
+.authWrap{
+   position: relative;
+  width: 100%;
+ height: 100%;
+  background: #f4f6fb;
+  overflow: hidden;
+}
+
+
+.backgroundIcon{
+  display: none;
+}
+
+.loginContainer {
+ 
+  background: #fff;
+  border-radius: 36px;
+  padding: 32px;
+ 
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.loginHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.loginTitle {
+  margin: 0;
+  font-weight: 900;
+  font-size: 64px;
+  color: #000;
+}
+
+.loginSubTitle {
+  margin: 0;
+  color: #52555F;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.loginBody,
+.loginForm,
+.googleSection,
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.googleInfo,
+.loginHint {
+  margin: 0;
+  color: #475569;
+
+ 
+}
+
+.formLabel {
+  margin: 0;
+  color: #475569;
+
+  font-weight: 700;
+}
+
+.formInput {
+  
+  padding: 14px 18px;
+border: none;
+  background: #F6F7FB;
+  color: #111827;
+  
+
+  border-radius: 22px;
+
+  color: #A6ABB9;
+}
+
+.formInput:focus {
+
+background-color: #F6F7FB;
+  border: none;
+  outline: none;
+}
+
+.buttonRow {
+  display: flex;
+  gap: 12px;
+}
+
+.primaryButton,
+.secondaryButton {
+  flex: 1;
+  padding: 14px 18px;
+  border: none;
+  border-radius: 18px;
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+.primaryButton {
+  background: #ff7d1f;
+  color: #fff;
+}
+
+.secondaryButton {
+text-transform: uppercase;
+
+  background: #f8fafc;
+  color: #334155;
+  border: 1px solid #e2e8f0;
+}
+
+
+
+.googleButton {
+ 
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 11px 28px;
+   border: none;
+
+
+  border-radius: 18px;
+  background: #F6F7FB;
+  color: #1f2937;
+}
+
+.googleButton img,
+.googleButton svg {
+  width: 20px;
+  height: 20px;
+}
+
+.googleLabel {
+  font-weight: 700;
+}
+
+
+@media (min-width: 768px) { 
+
+.backgroundIcon {
+  z-index: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  width: 100%;
+    height: auto;
+    
+   
+  }
+
+}
