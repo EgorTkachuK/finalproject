@@ -5,9 +5,11 @@ import svgr from 'vite-plugin-svgr'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/finalproject/' ,
   plugins: [
     svgr(),
     react(),
+    
     babel({ presets: [reactCompilerPreset()] }),
   ],
 })
